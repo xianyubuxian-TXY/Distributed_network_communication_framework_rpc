@@ -34,7 +34,7 @@ public:
         
         //把响应写入LoginResponse （错误码、错误消息、返回值）
         fixbug::ResultCode* result_code=response->mutable_result();
-        result_code->set_code(0);
+        result_code->set_errcode(0);
         result_code->set_errmsg("");
         response->set_success(login_result);
 

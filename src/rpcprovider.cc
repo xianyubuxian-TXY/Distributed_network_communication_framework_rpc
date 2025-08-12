@@ -85,7 +85,7 @@ void RpcProvider::onMessage(const muduo::net::TcpConnectionPtr& conn,muduo::net:
     //获取消息（转为字符串）
     std::string recv_buf=buffer->retrieveAllAsString();
 
-    //用copy+insert——>解析：header_size(4字节)+header_str+args_str
+    //用copy——>解析：header_size(4字节)+header_str+args_str
     //1.解析header_size
     uint32_t header_size=0;
     recv_buf.copy((char*)&header_size,4,0);

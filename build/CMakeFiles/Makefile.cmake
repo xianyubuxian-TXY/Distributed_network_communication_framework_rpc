@@ -13,6 +13,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
   "/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/example/CMakeLists.txt"
   "/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/example/callee/CMakeLists.txt"
+  "/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/example/caller/CMakeLists.txt"
   "/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/src/CMakeLists.txt"
   "/usr/share/cmake-3.28/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake"
@@ -46,10 +47,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "example/CMakeFiles/CMakeDirectoryInformation.cmake"
   "example/callee/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "example/caller/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/mprpc.dir/DependInfo.cmake"
   "example/callee/CMakeFiles/provider.dir/DependInfo.cmake"
+  "example/caller/CMakeFiles/consumer.dir/DependInfo.cmake"
   )

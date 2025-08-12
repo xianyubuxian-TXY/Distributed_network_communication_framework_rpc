@@ -187,7 +187,7 @@ class ResultCode PROTOBUF_FINAL :
 
   enum : int {
     kErrmsgFieldNumber = 2,
-    kCodeFieldNumber = 1,
+    kErrcodeFieldNumber = 1,
   };
   // bytes errmsg = 2;
   void clear_errmsg();
@@ -205,13 +205,13 @@ class ResultCode PROTOBUF_FINAL :
   std::string* _internal_mutable_errmsg();
   public:
 
-  // int32 code = 1;
-  void clear_code();
-  ::PROTOBUF_NAMESPACE_ID::int32 code() const;
-  void set_code(::PROTOBUF_NAMESPACE_ID::int32 value);
+  // int32 errcode = 1;
+  void clear_errcode();
+  ::PROTOBUF_NAMESPACE_ID::int32 errcode() const;
+  void set_errcode(::PROTOBUF_NAMESPACE_ID::int32 value);
   private:
-  ::PROTOBUF_NAMESPACE_ID::int32 _internal_code() const;
-  void _internal_set_code(::PROTOBUF_NAMESPACE_ID::int32 value);
+  ::PROTOBUF_NAMESPACE_ID::int32 _internal_errcode() const;
+  void _internal_set_errcode(::PROTOBUF_NAMESPACE_ID::int32 value);
   public:
 
   // @@protoc_insertion_point(class_scope:fixbug.ResultCode)
@@ -222,7 +222,7 @@ class ResultCode PROTOBUF_FINAL :
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
   ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr errmsg_;
-  ::PROTOBUF_NAMESPACE_ID::int32 code_;
+  ::PROTOBUF_NAMESPACE_ID::int32 errcode_;
   mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;
   friend struct ::TableStruct_user_2eproto;
 };
@@ -613,24 +613,24 @@ class UserServiceRpc_Stub : public UserServiceRpc {
 #endif  // __GNUC__
 // ResultCode
 
-// int32 code = 1;
-inline void ResultCode::clear_code() {
-  code_ = 0;
+// int32 errcode = 1;
+inline void ResultCode::clear_errcode() {
+  errcode_ = 0;
 }
-inline ::PROTOBUF_NAMESPACE_ID::int32 ResultCode::_internal_code() const {
-  return code_;
+inline ::PROTOBUF_NAMESPACE_ID::int32 ResultCode::_internal_errcode() const {
+  return errcode_;
 }
-inline ::PROTOBUF_NAMESPACE_ID::int32 ResultCode::code() const {
-  // @@protoc_insertion_point(field_get:fixbug.ResultCode.code)
-  return _internal_code();
+inline ::PROTOBUF_NAMESPACE_ID::int32 ResultCode::errcode() const {
+  // @@protoc_insertion_point(field_get:fixbug.ResultCode.errcode)
+  return _internal_errcode();
 }
-inline void ResultCode::_internal_set_code(::PROTOBUF_NAMESPACE_ID::int32 value) {
+inline void ResultCode::_internal_set_errcode(::PROTOBUF_NAMESPACE_ID::int32 value) {
   
-  code_ = value;
+  errcode_ = value;
 }
-inline void ResultCode::set_code(::PROTOBUF_NAMESPACE_ID::int32 value) {
-  _internal_set_code(value);
-  // @@protoc_insertion_point(field_set:fixbug.ResultCode.code)
+inline void ResultCode::set_errcode(::PROTOBUF_NAMESPACE_ID::int32 value) {
+  _internal_set_errcode(value);
+  // @@protoc_insertion_point(field_set:fixbug.ResultCode.errcode)
 }
 
 // bytes errmsg = 2;

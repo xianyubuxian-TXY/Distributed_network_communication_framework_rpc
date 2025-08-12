@@ -6,7 +6,7 @@ option cc_generic_services = true; //生成通用的服务代码
 
 message ResultCode
 {
-    int32 code = 1;
+    int32 errcode = 1; //errcode=0 正常
     bytes errmsg = 2;
 }
 

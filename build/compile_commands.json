@@ -24,6 +24,12 @@
   "output": "src/CMakeFiles/mprpc.dir/rpcprovider.cc.o"
 },
 {
+  "directory": "/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build/src",
+  "command": "/usr/bin/g++  -I/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/src/include -I/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/example -g -o CMakeFiles/mprpc.dir/mprpcchannel.cc.o -c /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/src/mprpcchannel.cc",
+  "file": "/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/src/mprpcchannel.cc",
+  "output": "src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o"
+},
+{
   "directory": "/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build/example/callee",
   "command": "/usr/bin/g++  -I/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/src/include -I/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/example -g -o CMakeFiles/provider.dir/userservice.cc.o -c /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/example/callee/userservice.cc",
   "file": "/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/example/callee/userservice.cc",
@@ -34,5 +40,17 @@
   "command": "/usr/bin/g++  -I/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/src/include -I/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/example -g -o CMakeFiles/provider.dir/__/user.pb.cc.o -c /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/example/user.pb.cc",
   "file": "/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/example/user.pb.cc",
   "output": "example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o"
+},
+{
+  "directory": "/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build/example/caller",
+  "command": "/usr/bin/g++  -I/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/src/include -I/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/example -g -o CMakeFiles/consumer.dir/calluserservice.cc.o -c /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/example/caller/calluserservice.cc",
+  "file": "/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/example/caller/calluserservice.cc",
+  "output": "example/caller/CMakeFiles/consumer.dir/calluserservice.cc.o"
+},
+{
+  "directory": "/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build/example/caller",
+  "command": "/usr/bin/g++  -I/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/src/include -I/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/example -g -o CMakeFiles/consumer.dir/__/user.pb.cc.o -c /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/example/user.pb.cc",
+  "file": "/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/example/user.pb.cc",
+  "output": "example/caller/CMakeFiles/consumer.dir/__/user.pb.cc.o"
 }
 ]
