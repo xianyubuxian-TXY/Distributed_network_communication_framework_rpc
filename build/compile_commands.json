@@ -13,6 +13,12 @@
 },
 {
   "directory": "/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build/src",
+  "command": "/usr/bin/g++  -I/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/src/include -I/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/example -g -o CMakeFiles/mprpc.dir/rpcheader.pb.cc.o -c /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/src/rpcheader.pb.cc",
+  "file": "/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/src/rpcheader.pb.cc",
+  "output": "src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o"
+},
+{
+  "directory": "/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build/src",
   "command": "/usr/bin/g++  -I/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/src/include -I/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/example -g -o CMakeFiles/mprpc.dir/rpcprovider.cc.o -c /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/src/rpcprovider.cc",
   "file": "/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/src/rpcprovider.cc",
   "output": "src/CMakeFiles/mprpc.dir/rpcprovider.cc.o"
