@@ -69,44 +69,44 @@ include example/caller/CMakeFiles/consumer.dir/progress.make
 # Include the compile flags for this target's objects.
 include example/caller/CMakeFiles/consumer.dir/flags.make
 
-example/caller/CMakeFiles/consumer.dir/calluserservice.cc.o: example/caller/CMakeFiles/consumer.dir/flags.make
-example/caller/CMakeFiles/consumer.dir/calluserservice.cc.o: /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/example/caller/calluserservice.cc
-example/caller/CMakeFiles/consumer.dir/calluserservice.cc.o: example/caller/CMakeFiles/consumer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/caller/CMakeFiles/consumer.dir/calluserservice.cc.o"
-	cd /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/caller/CMakeFiles/consumer.dir/calluserservice.cc.o -MF CMakeFiles/consumer.dir/calluserservice.cc.o.d -o CMakeFiles/consumer.dir/calluserservice.cc.o -c /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/example/caller/calluserservice.cc
+example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o: example/caller/CMakeFiles/consumer.dir/flags.make
+example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o: /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/example/caller/callfriendservice.cc
+example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o: example/caller/CMakeFiles/consumer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o"
+	cd /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o -MF CMakeFiles/consumer.dir/callfriendservice.cc.o.d -o CMakeFiles/consumer.dir/callfriendservice.cc.o -c /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/example/caller/callfriendservice.cc
 
-example/caller/CMakeFiles/consumer.dir/calluserservice.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/consumer.dir/calluserservice.cc.i"
-	cd /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/example/caller/calluserservice.cc > CMakeFiles/consumer.dir/calluserservice.cc.i
+example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/consumer.dir/callfriendservice.cc.i"
+	cd /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/example/caller/callfriendservice.cc > CMakeFiles/consumer.dir/callfriendservice.cc.i
 
-example/caller/CMakeFiles/consumer.dir/calluserservice.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/consumer.dir/calluserservice.cc.s"
-	cd /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/example/caller/calluserservice.cc -o CMakeFiles/consumer.dir/calluserservice.cc.s
+example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/consumer.dir/callfriendservice.cc.s"
+	cd /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/example/caller/callfriendservice.cc -o CMakeFiles/consumer.dir/callfriendservice.cc.s
 
-example/caller/CMakeFiles/consumer.dir/__/user.pb.cc.o: example/caller/CMakeFiles/consumer.dir/flags.make
-example/caller/CMakeFiles/consumer.dir/__/user.pb.cc.o: /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/example/user.pb.cc
-example/caller/CMakeFiles/consumer.dir/__/user.pb.cc.o: example/caller/CMakeFiles/consumer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object example/caller/CMakeFiles/consumer.dir/__/user.pb.cc.o"
-	cd /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/caller/CMakeFiles/consumer.dir/__/user.pb.cc.o -MF CMakeFiles/consumer.dir/__/user.pb.cc.o.d -o CMakeFiles/consumer.dir/__/user.pb.cc.o -c /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/example/user.pb.cc
+example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o: example/caller/CMakeFiles/consumer.dir/flags.make
+example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o: /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/example/friend.pb.cc
+example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o: example/caller/CMakeFiles/consumer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o"
+	cd /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o -MF CMakeFiles/consumer.dir/__/friend.pb.cc.o.d -o CMakeFiles/consumer.dir/__/friend.pb.cc.o -c /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/example/friend.pb.cc
 
-example/caller/CMakeFiles/consumer.dir/__/user.pb.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/consumer.dir/__/user.pb.cc.i"
-	cd /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/example/user.pb.cc > CMakeFiles/consumer.dir/__/user.pb.cc.i
+example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/consumer.dir/__/friend.pb.cc.i"
+	cd /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/example/friend.pb.cc > CMakeFiles/consumer.dir/__/friend.pb.cc.i
 
-example/caller/CMakeFiles/consumer.dir/__/user.pb.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/consumer.dir/__/user.pb.cc.s"
-	cd /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/example/user.pb.cc -o CMakeFiles/consumer.dir/__/user.pb.cc.s
+example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/consumer.dir/__/friend.pb.cc.s"
+	cd /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build/example/caller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/example/friend.pb.cc -o CMakeFiles/consumer.dir/__/friend.pb.cc.s
 
 # Object files for target consumer
 consumer_OBJECTS = \
-"CMakeFiles/consumer.dir/calluserservice.cc.o" \
-"CMakeFiles/consumer.dir/__/user.pb.cc.o"
+"CMakeFiles/consumer.dir/callfriendservice.cc.o" \
+"CMakeFiles/consumer.dir/__/friend.pb.cc.o"
 
 # External object files for target consumer
 consumer_EXTERNAL_OBJECTS =
 
-/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/bin/consumer: example/caller/CMakeFiles/consumer.dir/calluserservice.cc.o
-/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/bin/consumer: example/caller/CMakeFiles/consumer.dir/__/user.pb.cc.o
+/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/bin/consumer: example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o
+/home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/bin/consumer: example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o
 /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/bin/consumer: example/caller/CMakeFiles/consumer.dir/build.make
 /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/bin/consumer: /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/lib/libmprpc.a
 /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/bin/consumer: example/caller/CMakeFiles/consumer.dir/link.txt

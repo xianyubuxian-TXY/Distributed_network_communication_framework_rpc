@@ -13,6 +13,13 @@ public:
         return true;
     }
 
+    bool Register(int id, std::string name,std::string pwd)
+    {
+        std::cout<<"id"<<id<<" name:"<<name<<" "<<"pwd:"<<pwd<<"注册成功"<<std::endl;
+        return false;
+    }
+
+
     /*
     重写基类UserServiceRpc的虚函数，下面这些方法都是有框架直接调用的（注：当前是业务层）
     1.caller(rpc服务调用者) ===> 调用Login(LoginRequest) ===> 通过muduo网络库 ===>发送到 callee(rpc服务提供者)
@@ -22,7 +29,7 @@ public:
     void Login(::google::protobuf::RpcController* controller,
         const ::fixbug::LoginRequest* request,
         ::fixbug::LoginResponse* response,
-        ::google::protobuf::Closure* done)
+        ::google::protobuf::Closure* done) override
     {
         //LoginRequest、LoginResponse的序列化与反序列话都由框架完成
         //框架给业务上报了请求参数 LoginRequest，应用获取相应数据做本地服务
@@ -40,6 +47,32 @@ public:
 
         //调用done回调函数，通知框架本次rpc调用已经处理完毕
         //框架会在done回调函数中，发送LoginResponse响应给rpc服务调用者
+        done->Run();
+    }
+
+    void Register(::google::protobuf::RpcController* controller,
+        const ::fixbug::RegisterRequest* request,
+        ::fixbug::RegisterResponse* response,
+        ::google::protobuf::Closure* done) override
+    {
+        int id=request->id();
+        std::string name=request->name();
+        std::string pwd=request->pwd();
+
+        bool ret=Register(id,name,pwd);
+        response->set_success(ret);
+        fixbug::ResultCode* code=response->mutable_result();
+        if(!ret)
+        {
+            code->set_errcode(1);
+            code->set_errmsg("register error");
+        }
+        else
+        {
+            code->set_errcode(0);
+            code->set_errmsg("register success");
+        }
+
         done->Run();
     }
 };

@@ -130,6 +130,30 @@ mprpc/fast:
 	cd /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/build
 .PHONY : mprpc/fast
 
+logger.o: logger.cc.o
+.PHONY : logger.o
+
+# target to build an object file
+logger.cc.o:
+	cd /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/logger.cc.o
+.PHONY : logger.cc.o
+
+logger.i: logger.cc.i
+.PHONY : logger.i
+
+# target to preprocess a source file
+logger.cc.i:
+	cd /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/logger.cc.i
+.PHONY : logger.cc.i
+
+logger.s: logger.cc.s
+.PHONY : logger.s
+
+# target to generate assembly for a file
+logger.cc.s:
+	cd /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/logger.cc.s
+.PHONY : logger.cc.s
+
 mprpcapplication.o: mprpcapplication.cc.o
 .PHONY : mprpcapplication.o
 
@@ -202,6 +226,54 @@ mprpcconfig.cc.s:
 	cd /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcconfig.cc.s
 .PHONY : mprpcconfig.cc.s
 
+mprpccontroller.o: mprpccontroller.cc.o
+.PHONY : mprpccontroller.o
+
+# target to build an object file
+mprpccontroller.cc.o:
+	cd /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpccontroller.cc.o
+.PHONY : mprpccontroller.cc.o
+
+mprpccontroller.i: mprpccontroller.cc.i
+.PHONY : mprpccontroller.i
+
+# target to preprocess a source file
+mprpccontroller.cc.i:
+	cd /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpccontroller.cc.i
+.PHONY : mprpccontroller.cc.i
+
+mprpccontroller.s: mprpccontroller.cc.s
+.PHONY : mprpccontroller.s
+
+# target to generate assembly for a file
+mprpccontroller.cc.s:
+	cd /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpccontroller.cc.s
+.PHONY : mprpccontroller.cc.s
+
+mprpcprovider.o: mprpcprovider.cc.o
+.PHONY : mprpcprovider.o
+
+# target to build an object file
+mprpcprovider.cc.o:
+	cd /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcprovider.cc.o
+.PHONY : mprpcprovider.cc.o
+
+mprpcprovider.i: mprpcprovider.cc.i
+.PHONY : mprpcprovider.i
+
+# target to preprocess a source file
+mprpcprovider.cc.i:
+	cd /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcprovider.cc.i
+.PHONY : mprpcprovider.cc.i
+
+mprpcprovider.s: mprpcprovider.cc.s
+.PHONY : mprpcprovider.s
+
+# target to generate assembly for a file
+mprpcprovider.cc.s:
+	cd /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcprovider.cc.s
+.PHONY : mprpcprovider.cc.s
+
 rpcheader.pb.o: rpcheader.pb.cc.o
 .PHONY : rpcheader.pb.o
 
@@ -226,29 +298,29 @@ rpcheader.pb.cc.s:
 	cd /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.s
 .PHONY : rpcheader.pb.cc.s
 
-rpcprovider.o: rpcprovider.cc.o
-.PHONY : rpcprovider.o
+zookeeperutil.o: zookeeperutil.cc.o
+.PHONY : zookeeperutil.o
 
 # target to build an object file
-rpcprovider.cc.o:
-	cd /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/rpcprovider.cc.o
-.PHONY : rpcprovider.cc.o
+zookeeperutil.cc.o:
+	cd /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/zookeeperutil.cc.o
+.PHONY : zookeeperutil.cc.o
 
-rpcprovider.i: rpcprovider.cc.i
-.PHONY : rpcprovider.i
+zookeeperutil.i: zookeeperutil.cc.i
+.PHONY : zookeeperutil.i
 
 # target to preprocess a source file
-rpcprovider.cc.i:
-	cd /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/rpcprovider.cc.i
-.PHONY : rpcprovider.cc.i
+zookeeperutil.cc.i:
+	cd /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/zookeeperutil.cc.i
+.PHONY : zookeeperutil.cc.i
 
-rpcprovider.s: rpcprovider.cc.s
-.PHONY : rpcprovider.s
+zookeeperutil.s: zookeeperutil.cc.s
+.PHONY : zookeeperutil.s
 
 # target to generate assembly for a file
-rpcprovider.cc.s:
-	cd /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/rpcprovider.cc.s
-.PHONY : rpcprovider.cc.s
+zookeeperutil.cc.s:
+	cd /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/zookeeperutil.cc.s
+.PHONY : zookeeperutil.cc.s
 
 # Help Target
 help:
@@ -259,6 +331,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... mprpc"
+	@echo "... logger.o"
+	@echo "... logger.i"
+	@echo "... logger.s"
 	@echo "... mprpcapplication.o"
 	@echo "... mprpcapplication.i"
 	@echo "... mprpcapplication.s"
@@ -268,12 +343,18 @@ help:
 	@echo "... mprpcconfig.o"
 	@echo "... mprpcconfig.i"
 	@echo "... mprpcconfig.s"
+	@echo "... mprpccontroller.o"
+	@echo "... mprpccontroller.i"
+	@echo "... mprpccontroller.s"
+	@echo "... mprpcprovider.o"
+	@echo "... mprpcprovider.i"
+	@echo "... mprpcprovider.s"
 	@echo "... rpcheader.pb.o"
 	@echo "... rpcheader.pb.i"
 	@echo "... rpcheader.pb.s"
-	@echo "... rpcprovider.o"
-	@echo "... rpcprovider.i"
-	@echo "... rpcprovider.s"
+	@echo "... zookeeperutil.o"
+	@echo "... zookeeperutil.i"
+	@echo "... zookeeperutil.s"
 .PHONY : help
 
 

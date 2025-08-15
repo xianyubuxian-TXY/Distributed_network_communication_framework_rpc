@@ -312,4 +312,12 @@ src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o: \
  /usr/local/include/google/protobuf/extension_set.h \
  /usr/include/c++/13/cassert \
  /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/src/include/mprpcapplication.h \
- /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/src/include/mprpcconfig.h
+ /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/src/include/mprpcconfig.h \
+ /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/src/include/mprpccontroller.h \
+ /home/student/Code/C++/Web_Project/Distributed_network_communication_framework_rpc/src/include/zookeeperutil.h \
+ /usr/local/include/zookeeper/zookeeper.h \
+ /usr/include/x86_64-linux-gnu/sys/time.h \
+ /usr/local/include/zookeeper/proto.h \
+ /usr/local/include/zookeeper/zookeeper_version.h \
+ /usr/local/include/zookeeper/recordio.h \
+ /usr/local/include/zookeeper/zookeeper.jute.h
